@@ -1,0 +1,21 @@
+.main_footer{
+    min-height: 100vh;
+    background: #000;
+    z-index: 1000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.1;
+}
+.main_footer h2{
+    font-family: var(--cursive-font);
+    color: #ff3275;
+    font-size: 1.9em;
+}
+.main_footer h4{
+    font-family: var(--japanese-font);
+    letter-spacing: 5px;
+    color: #999;
+}

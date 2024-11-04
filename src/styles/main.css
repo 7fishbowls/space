@@ -1,0 +1,22 @@
+*{
+    font-family: var(--love-font);
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-color);
+}
+:root{
+    --love-font: "Poppins", sans-serif;
+    --secondary-font: "Raleway", serif;
+    --primary-font: "Quicksand", serif;
+    --cursive-font: "Playwrite GB S", serif;
+    --japanese-font: "Noto Sans JP", serif;
+    --main-font: "Inter", serif;
+    --text-color:#eeeeee;
+    --background-color:#000000;
+    --body-text:16px;
+}
+body{
+    background: var(--background-color);
+}
