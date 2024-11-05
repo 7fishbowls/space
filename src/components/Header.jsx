@@ -6,7 +6,7 @@ function Header() {
         <>
         <header className="logo">
             <h2>Space.</h2>
-            <FaStar />
+            <FaStar className="icon_star" />
         </header>
         </>
     );

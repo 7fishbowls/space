@@ -1,16 +1,16 @@
 import Header from "./Header";
-import "../styles/main.css"
+import "../styles/main.css";
 import Home from "./Home";
-import Footer from "./Footer";
+// import About from "./About";
 
 function App() {
-    return (
-        <>
-        <Header/>
-        <Home/>
-        <Footer/>
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <Home />
+      {/* <About /> */}
+    </>
+  );
 }
 
 export default App;
