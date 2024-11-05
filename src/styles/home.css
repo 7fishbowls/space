@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 97vh;
-    filter: brightness(.8);
+    filter: brightness(.7);
     animation: animate_mt 2s ease-in-out forwards;
 }
 .image_box img{
@@ -29,12 +29,13 @@
     padding: 30px;
     padding-bottom: 40px;
     width: 100%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
     border-top: 1px solid #3a3a3a;
     left: 0;
  }
 .home .main_text h2{
     font-weight: 400;
+    font-size: 1.3em;
 }
  @keyframes animate_mt {
     from{
@@ -52,10 +53,10 @@
     gap: 30px;
 }
 .buttons button{
-    padding: 10px 25px;
+    padding: 7px 22px;
     color: #0e0e0e;
     border-radius: 10px;
-    font-size: 1em;
+    font-size: .93em;
     font-family: var(--cursive-font);
     border: none;
     padding-bottom: 12px;
