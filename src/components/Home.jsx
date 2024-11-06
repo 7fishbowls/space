@@ -1,9 +1,12 @@
+import { Link } from "react-router-dom";
 import "../styles/home.css";
 import Footer from "./Footer";
+import Header from "./Header";
 
 function Home() {
   return (
     <>
+      <Header />
       <div className="hm image_box">
         {/* <img src="https://cdn.esahubble.org/archives/images/large/heic1323a.jpg" alt="" /> */}
         <img
@@ -15,8 +18,8 @@ function Home() {
         <div className="main_text">
           <h2>Space reveals its true beauty when we dare to explore.</h2>
           <div className="buttons">
-            <button>Explore</button>
-            <button>Learn more</button>
+            <Link to={"/explore"}>Explore</Link>
+            <Link to={"/about"}>Learn more</Link>
           </div>
         </div>
       </section>

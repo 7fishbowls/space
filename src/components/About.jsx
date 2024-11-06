@@ -1,5 +1,6 @@
 import "../styles/about.css";
 import Box from "./Box";
+import Header from "./Header";
 
 function About() {
   const about_data = [
@@ -22,6 +23,7 @@ function About() {
   ];
   return (
     <>
+      <Header />
       <section className="boxes">
         <section className="about">
           <header>

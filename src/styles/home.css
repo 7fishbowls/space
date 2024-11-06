@@ -52,7 +52,7 @@
   display: flex;
   gap: 30px;
 }
-.buttons button {
+.buttons a {
   padding: 7px 22px;
   color: #0e0e0e;
   border-radius: 10px;
@@ -60,5 +60,6 @@
   font-family: var(--cursive-font);
   border: none;
   padding-bottom: 12px;
+  text-decoration: none;
   background: #ededed;
 }
