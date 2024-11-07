@@ -3,7 +3,7 @@
   background: #111111;
   padding: 10px;
   width: calc(100% - 20px);
-  max-width: 1000px;
+  max-width: 960px;
   margin: 90px 10px;
   margin-bottom: 20px;
   height: 100%;
@@ -42,7 +42,7 @@
 }
 
 .about_box {
-  border: 1px solid #3a3a3a;
+  border: 1px solid #bc6ff1;
   background: #111;
   margin: 10px;
   border-radius: 10px;
@@ -50,6 +50,13 @@
   max-width: 380px;
   margin-bottom: 30px;
 }
+.about_icons {
+  margin-right: 8px;
+  margin-top: 5px;
+  transform: translateY(3px);
+  color: #bc6ff1 !important;
+}
+
 .about_box header {
   padding: 10px;
   font-size: 0.9em;
