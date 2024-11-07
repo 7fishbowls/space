@@ -24,7 +24,7 @@
   font-size: 1.4em;
 }
 .about header p {
-  color: #888888;
+  color: var(--secondary-color);
   font-size: 1em;
   font-family: var(--cursive-font);
 }
