@@ -31,3 +31,11 @@ span {
 body {
   background: var(--background-color);
 }
+.home_container {
+  opacity: 0.2;
+  transition: 1s;
+  transition-delay: 2s;
+}
+.home_container.active {
+  opacity: 1;
+}

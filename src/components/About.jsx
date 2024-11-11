@@ -1,8 +1,13 @@
+import { useState } from "react";
 import "../styles/about.css";
 import Box from "./Box";
 import Header from "./Header";
 
 function About() {
+  const [active, setActive] = useState(false);
+  const handleImageLoad = () => {
+    setActive(true);
+  };
   const about_data = [
     {
       title: "Knowledge Sharing",
@@ -24,7 +29,7 @@ function About() {
   return (
     <>
       <Header />
-      <section className="boxes">
+      <section className={`boxes ${active ? "active" : ""}`}>
         <section className="about">
           <header>
             <h2>Astronaut's Guide</h2>
@@ -32,7 +37,7 @@ function About() {
           </header>
           <section className="flex_">
             <div className="image_box">
-              <img src="astronaut.png" alt="" />
+              <img src="astronaut.png" alt="" onLoad={handleImageLoad} />
             </div>
             <p>
               Hey, astronauts! I created this website for those who are

@@ -1,0 +1,110 @@
+.create {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+.create .create_ {
+  border: 1px solid #3a3a3a;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 500px;
+  animation: create 300ms ease-in-out forwards;
+}
+@keyframes create {
+  from {
+    border: 1px solid var(--secondary-color);
+  }
+  to {
+    border: 1px solid #3a3a3a;
+  }
+}
+.create .create_ header {
+  padding: 5px;
+}
+.create .create_ header h2 {
+  color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 1.3em;
+}
+.create .create_ input {
+  border: none;
+  background: #000;
+  color: #eeeeee;
+  border-bottom: 1px solid var(--secondary-color);
+  width: 100%;
+  margin: 0 10px 10px 0;
+  font-size: 1em;
+  padding: 10px;
+  font-weight: 300;
+  outline: none;
+}
+.create .create_ p.casual_text {
+  font-weight: 300;
+  color: #acacac;
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.create .create_ .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.create .create_ .buttons.first {
+  float: right;
+}
+.create .create_ .buttons button {
+  border-radius: 6px;
+  background: var(--secondary-color);
+  border: none;
+  text-align: center;
+  color: #eeeeee;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+p.error_empty {
+  color: red;
+  font-weight: 300;
+  display: none;
+}
+p.error_empty.active {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.check_icon {
+  margin: 5px;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 7px;
+  transform: translateY(2px);
+  color: #06d001;
+  text-shadow: 0 0 20px #06d001;
+}
+.secondary_text {
+  color: #dddddd;
+  text-transform: capitalize;
+  font-family: var(--love-font);
+}
+.create_ .childrens {
+  margin: 10px;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+.create_ .childrens h1 {
+  /* color: var(--secondary-color); */
+  text-transform: lowercase;
+  font-family: var(--primary-font);
+}
+.submit_final_btn {
+  padding-top: 10px;
+}
+header.last_header {
+  padding-left: 0;
+}

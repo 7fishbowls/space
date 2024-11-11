@@ -42,13 +42,17 @@
 }
 
 .about_box {
-  border: 1px solid #bc6ff1;
+  border: 1px solid #3a3a3a;
   background: #111;
   margin: 10px;
   border-radius: 10px;
   padding: 10px;
   max-width: 380px;
   margin-bottom: 30px;
+  transition: 300ms ease-in;
+}
+.about_box:hover {
+  border: 1px solid var(--secondary-color);
 }
 .about_icons {
   margin-right: 8px;
@@ -79,6 +83,12 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  opacity: 0.3;
+  transition: 1s;
+  transition-delay: 2s;
+}
+.boxes.active {
+  opacity: 1;
 }
 .short_footer {
   border-top: 1px solid #3a3a3a;

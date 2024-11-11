@@ -2,6 +2,7 @@
 import "../styles/main.css";
 import Home from "./Home";
 import About from "./About";
+import Create from "./Create";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/signup" element={<Create />}></Route>
       </Routes>
     </BrowserRouter>
   );
